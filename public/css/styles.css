@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #contlogo {
     width: 30%;
@@ -89,6 +90,7 @@
   }
   main {
     height: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   footer {
     height: 120px;
@@ -96,6 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #contCopyright {
     width: 70%;
