@@ -405,6 +405,35 @@
   #abtn:visited {
     color: grey;
   }
+  #contimagenwelcome {
+    height: 150px;
+  }
+  #imagenwelcome {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  #conttextowelcome {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #textowelcome {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pwelcome {
+    text-align: center;
+    font-size: 10px;
+  }
+  #imagendianawelcome {
+    width: 100%;
+    height: 200px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
