@@ -41,8 +41,43 @@
     font-size: 30px;
     color: white;
   }
+  #contimagenwelcome {
+    width: 100%;
+    height: 400px;
+  }
+  #imagenwelcome {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  #conttextowelcome {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #textowelcome {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section {
+    width: 100%;
+    height: 300px;
+  }
+  #imagendianawelcome {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  #pwelcome {
+    font-size: 40px;
+  }
   #contmenu {
-    width: 55%;
+    width: 75%;
     height: 150px;
   }
   #contlogin {
@@ -53,7 +88,7 @@
     align-items: center;
   }
   main {
-    height: 700px;
+    height: 1200px;
   }
   footer {
     height: 120px;

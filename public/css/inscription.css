@@ -276,6 +276,10 @@
     background-color: #A3C6FA;
     margin: 5px;
   }
+  #imgespana {
+    width: 100%;
+    height: 50px;
+  }
   #team {
     width: 48%;
     height: 50px;
