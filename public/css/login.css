@@ -181,7 +181,7 @@
     align-items: center;
     color: #A3C6FA;
   }
-  #btnHome, #btnLogin {
+  #btnHome, #btnLogin, #btnIns {
     margin: 10px;
     height: 50px;
     width: 10%;
@@ -192,7 +192,7 @@
     align-items: center;
     font-weight: bold;
   }
-  #btnHome:hover, #btnLogin:hover {
+  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
     margin: 10px;
     height: 50px;
     width: 10%;
@@ -396,7 +396,7 @@
     align-items: center;
     color: #A3C6FA;
   }
-  #btnHome, #btnLogin {
+  #btnHome, #btnLogin, #btnIns {
     margin: 10px;
     height: 30px;
     width: 30%;
@@ -408,7 +408,7 @@
     font-weight: bold;
     color: #A3C6FA;
   }
-  #btnHome:hover, #btnLogin:hover {
+  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
     margin: 10px;
     height: 30px;
     width: 30%;
