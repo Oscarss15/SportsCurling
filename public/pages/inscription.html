@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="../css/inscription.css">
 </head>
+
 <body>
     <header>
         <div id="contlogo">
             <div id="logo"><img id="photologo" src="../img/logo.png" alt="logo"></div>
-            
+
             <div id="nombreempresa">
                 <p id="textempresa">F5 CURLING ENTERPRISE</p>
             </div>
         </div>
         <div id="contmenu"></div>
-        <div id =contlogin>
+        <div id=contlogin>
             <div id="menulogin"><img src="../img/menuicon.png" alt=""></div>
         </div>
     </header>
     <main>
         <div id="nav">
-            <div id="btnHome"><a href="/index.html" id="abtn"><p>Home</p></a></div>
-            <div id="btnLogin"><a href="../pages/login.html" id="abtn"><p>Login</p></a></div>
-            <div id="btnIns"><a href="../pages/inscription.html" id="abtn"><p>Inscription</p></a></div>
+            <div id="btnHome"><a href="/index.html" id="abtn">
+                    <p>Home</p>
+                </a></div>
+            <div id="btnLogin"><a href="../pages/login.html" id="abtn">
+                    <p>Login</p>
+                </a></div>
+            <div id="btnIns"><a href="../pages/inscription.html" id="abtn">
+                    <p>Inscription</p>
+                </a></div>
         </div>
-      <div id="mainlogin">
-       
-        <div id="containerform">
-            <div id="form">
-                 
-                <input type="text" id="username" name="username" value="" placeholder="Add name's team"><br>
-               
-                <input type="file" id="file" name="file" value=""  placeholder="Add flag"><br>
-                <a href="dashboard/dashboard.html"><input type="submit" value="Add team"></a>
-         
-            </div>
-        
+        <div id="mainlogin">
+
+            <div id="containerform">
+                <div id="form">
+                    <input type="text" id="teamNameInput" name="username" value="" placeholder="Add name's team"><br>
+                    <input type="File" id="fileInput" name="file" value="" placeholder="Add flag"><br>
+                    <button id="addButton">Add</button>
+                    <a href="dashboard/dashboard.html"><input type="submit" value="Add team"></a>
+                </div>
+
             </div>
         </div>
         <div id="contcontador">
-            <div id="conttextcontador"><p id="textcontador">REGISTERED TEAMS</p></div>
-            <div id="contador"><p id="textcontador2">9</p></div>
+            <div id="conttextcontador">
+                <p id="textcontador">REGISTERED TEAMS</p>
+            </div>
+            <div id="contador">
+                <p id="textcontador2">9</p>
+            </div>
         </div>
         <div id="mainteams">
             <div id="contteams">
@@ -53,7 +63,7 @@
                         <div id="editteam"></div>
                         <div id="suprteam"></div>
                     </div>
-                    <div id="boxteam">
+                    <!-- <div id="boxteam">
                         <div id="flagteam"></div>
                         <div id="team"></div>
                         <div id="editteam"></div>
@@ -71,34 +81,8 @@
                         <div id="editteam"></div>
                         <div id="suprteam"></div>
                     </div>
-                </div>
-                <div id="filateam">
-                    <div id="boxteam">
-                        <div id="flagteam"></div>
-                        <div id="team"></div>
-                        <div id="editteam"></div>
-                        <div id="suprteam"></div>
-                    </div>
-                    <div id="boxteam">
-                        <div id="flagteam"></div>
-                        <div id="team"></div>
-                        <div id="editteam"></div>
-                        <div id="suprteam"></div>
-                    </div>
-                    <div id="boxteam">
-                        <div id="flagteam"></div>
-                        <div id="team"></div>
-                        <div id="editteam"></div>
-                        <div id="suprteam"></div>
-                    </div>
-                    <div id="boxteam">
-                        <div id="flagteam"></div>
-                        <div id="team"></div>
-                        <div id="editteam"></div>
-                        <div id="suprteam"></div>
-                    </div>
-                </div>
-                <div id="filateam">
+                </div> -->
+                    <!-- <div id="filateam">
                     <div id="boxteam">
                         <div id="flagteam"></div>
                         <div id="team"></div>
@@ -150,13 +134,39 @@
                         <div id="suprteam"></div>
                     </div>
                 </div>
-                
-              
-               
+                <div id="filateam">
+                    <div id="boxteam">
+                        <div id="flagteam"></div>
+                        <div id="team"></div>
+                        <div id="editteam"></div>
+                        <div id="suprteam"></div>
+                    </div>
+                    <div id="boxteam">
+                        <div id="flagteam"></div>
+                        <div id="team"></div>
+                        <div id="editteam"></div>
+                        <div id="suprteam"></div>
+                    </div>
+                    <div id="boxteam">
+                        <div id="flagteam"></div>
+                        <div id="team"></div>
+                        <div id="editteam"></div>
+                        <div id="suprteam"></div>
+                    </div>
+                    <div id="boxteam">
+                        <div id="flagteam"></div>
+                        <div id="team"></div>
+                        <div id="editteam"></div>
+                        <div id="suprteam"></div>
+                    </div>
+                </div> -->
+
+
+
+
+                </div>
 
             </div>
-
-        </div>
     </main>
     <footer>
         <div id="contCopyright">
@@ -165,7 +175,7 @@
                     <p id="copyright">© 2024</p>
                 </div>
             </div>
-           
+
         </div>
         <div id="redessociales">
             <div id="redsocial1"><img id="facebook" src="../img/facebook.png" alt="facebook"></div>
@@ -173,9 +183,11 @@
             <div id="redsocial3"><img id="instagram" src="../img/instagram.png" alt="instagram"></div>
 
         </div>
-        
+
 
     </footer>
     <script src="../js/app.js"></script>
+    <script type="module" src="../js/insription.js"></script>
 </body>
+
 </html>
