@@ -1,0 +1,503 @@
+/* 
+
+
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #a3c6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #contlogo {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #logo {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #photologo {
+    height: 120px;
+  }
+  #nombreempresa {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #textempresa {
+    font-size: 30px;
+    color: white;
+  }
+  #contmenu {
+    width: 75%;
+    height: 150px;
+  }
+  #contlogin {
+    width: 15%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+
+  footer {
+    height: 120px;
+    background-color: #a3c6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #contCopyright {
+    width: 70%;
+    height: 120px;
+  }
+  #redessociales {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #redsocial1 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+  #redsocial2 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+  #redsocial3 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+
+  #conttextocopy {
+    width: 15%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #copy {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #copyright {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  #facebook,
+  #x,
+  #instagram {
+    width: 40px;
+    height: 40px;
+  }
+
+  #nav{
+    border-top: 3px solid white;
+    width: 100%;
+    background-color: #A3C6FA;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#A3C6FA;
+
+
+
+
+}
+#btnHome,#btnLogin,#btnIns,#btnClas,#btnElim,#btnWin{
+    margin:10px;
+    height:50px;
+    width: 10%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#btnHome:hover,#btnLogin:hover,#btnIns:hover,#btnClas:hover,#btnElim:hover,#btnWin:hover{
+    margin:10px;
+    height:50px;
+    width: 10%;
+    background-color: #A3C6FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:white;
+    border:2px solid white;
+}
+#abtn:visited{
+    color: grey;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .contenedor-principal{
+    display: flex;
+
+
+  }
+
+
+
+
+
+
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/public/img/giphy.webp);
+    background-size: cover;
+  }
+
+
+
+  .container{
+    text-align: center;
+
+
+  }
+
+  .line{
+    font-size: xx-large;
+    color: white;
+
+  }
+
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  #nombreempresa p {
+      font-size: 1em;
+  }
+
+  main {
+      padding: 10px;
+  }
+
+  .line {
+      font-size: 1.5em;
+  }
+
+  #nav {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 10px;
+  }
+
+  #nombreempresa p {
+      font-size: 0.9em;
+  }
+
+  .line {
+      font-size: 1.2em;
+  }
+
+  #nav div {
+      min-width:   100px;
+    }
+
+    #nav a {
+        padding: 8px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    #redessociales img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+
+
+
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #a3c6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contlogo {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#photologo {
+  height: 120px;
+}
+
+#nombreempresa {
+  width: 70%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textempresa {
+  font-size: 30px;
+  color: white;
+}
+
+#contmenu {
+  width: 75%;
+  height: 150px;
+}
+
+#contlogin {
+  width: 15%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+footer {
+  height: 120px;
+  background-color: #a3c6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contCopyright {
+  width: 70%;
+  height: 120px;
+}
+
+#redessociales {
+  width: 30%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#redsocial1, #redsocial2, #redsocial3 {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 7%;
+}
+
+#conttextocopy {
+  width: 15%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copy {
+  height: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+#facebook, #x, #instagram {
+  width: 40px;
+  height: 40px;
+}
+
+#nav {
+  border-top: 3px solid white;
+  width: 100%;
+  background-color: #a3c6fa;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnHome, #btnLogin, #btnIns, #btnClas, #btnElim, #btnWin {
+  margin: 10px;
+  height: 50px;
+  width: 10%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#btnHome:hover, #btnLogin:hover, #btnIns:hover, #btnClas:hover, #btnElim:hover, #btnWin:hover {
+  background-color: #a3c6fa;
+  color: white;
+  border: 2px solid white;
+}
+
+#abtn:visited {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.contenedor-principal {
+  display: flex;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/public/img/giphy.webp);
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+.line {
+  font-size: xx-large;
+  color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  #contlogo, #nombreempresa, #contlogin {
+    width: 100%;
+    height: auto;
+  }
+  #textempresa {
+    font-size: 24px;
+  }
+  #nav {
+    flex-direction: column;
+    height: auto;
+  }
+  #btnHome, #btnLogin, #btnIns, #btnClas, #btnElim, #btnWin {
+    width: 80%;
+    margin: 5px 0;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+  }
+  #contCopyright, #redessociales {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  #redsocial1, #redsocial2, #redsocial3 {
+    margin: 10px;
+  }
+}
+@media (max-width: 480px) {
+  #textempresa {
+    font-size: 20px;
+  }
+  #btnHome, #btnLogin, #btnIns, #btnClas, #btnElim, #btnWin {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .line {
+    font-size: large;
+  }
+  #facebook, #x, #instagram {
+    width: 30px;
+    height: 30px;
+  }
+  section {
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+/*# sourceMappingURL=ganador.css.map */
