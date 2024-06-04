@@ -123,9 +123,21 @@
     }
     #points1group1,#points1group2,#points1group3,#points1group4,#points2group1,#points2group2,#points2group3,#points2group4,#points3group1,#points3group2,#points3group3,#points3group4,#points4group1,
     #points4group2,#points4group3,#points4group4{
-        background-color: #A3C6FA;
+       
         height: 50px;
         width: 20%;
         margin:3%;
+        
+    }
+    #goals{
+        background-color: #A3C6FA;
+        height: 50px;
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        border-style: none;
+        color:white;
+        padding-left: 25%;
+        
     }
 }
