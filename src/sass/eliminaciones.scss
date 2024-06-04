@@ -1,57 +1,31 @@
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./nav.css");
+
 @media screen and (min-width: 1600px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
+
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
+
+
   #containerform {
     width: 25%;
     height: 500px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  input[type=text], input[type=password] {
-    height: 50px;
-    width: 95%;
-    border-radius: 15px;
-    color: #A09D9D;
-    text-align: center;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    background-color: white;
-  }
-  input[type=submit] {
-    height: 50px;
-    width: 95%;
-    border-radius: 25px;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    font-size: 30px;
-    background-color: #FE4824;
-    color: white;
-  }
-  input[type=submit]:hover {
-    height: 50px;
-    width: 95%;
-    border-radius: 25px;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    font-size: 30px;
-    background-color: white;
-    color: #FE4824;
-  }
+
+
   #mainlogin {
     height: 700px;
     display: flex;
@@ -61,45 +35,25 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  #contcontador {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D3D3D3;
+  #abtn {
+    text-decoration: none;
+    list-style: none;
   }
-  #conttextcontador {
-    width: 25%;
-    height: 120px;
-    background-color: black;
-    border: 8px outset #D3D3D3;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #abtn:visited {
+    color: grey;
   }
-  #contador {
-    width: 10%;
-    height: 120px;
-    background-color: black;
-    border: 8px outset #D3D3D3;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+ 
+ 
+
+  #c1{
+    margin: 0%;
   }
-  #textcontador {
-    color: white;
-    font-size: 40px;
-  }
-  #textcontador2 {
-    color: white;
-    font-size: 50px;
-  }
+  
   #mainteams {
-    width: 100%;
-    height: 400px;
+    // width: 100%;
+    // height: 400px;
+
     display: flex;
     justify-content: center;
     align-items: end;
@@ -107,12 +61,14 @@
   #contteams {
     width: 100%;
     height: 400px;
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
   }
+
   #boxteam {
     width: 22%;
     height: 70px;
     background-color: white;
+
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -121,7 +77,7 @@
   #filateam {
     width: 100%;
     height: 100px;
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,27 +85,33 @@
   #flagteam {
     width: 15%;
     height: 50px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     margin: 5px;
   }
+
   #team {
     width: 48%;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
   #editteam {
     width: 50px;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
   #suprteam {
     width: 50px;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
+
+
 }
 @media screen and (max-width: 480px) {
   * {
@@ -157,7 +119,7 @@
   }
   header {
     width: 100%;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     height: 90px;
     display: flex;
     justify-content: center;
@@ -212,8 +174,10 @@
   a:visited {
     color: white;
   }
+
   #conttitulotorneo {
     height: 50px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +191,7 @@
   }
   footer {
     height: 90px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,6 +200,7 @@
     width: 50%;
     height: 90px;
   }
+
   #redessociales {
     width: 50%;
     height: 90px;
@@ -249,6 +214,7 @@
     background-color: white;
     margin: 7%;
   }
+
   #redsocial2 {
     width: 30px;
     height: 30px;
@@ -261,7 +227,10 @@
     background-color: white;
     margin: 7%;
   }
-  #facebook, #x, #instagram {
+
+  #facebook,
+  #x,
+  #instagram {
     width: 30px;
     height: 30px;
   }
@@ -276,48 +245,8 @@
     justify-content: center;
     align-items: center;
   }
-  #containerform {
-    width: 65%;
-    height: 300px;
-    background-color: #A3C6FA;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  input[type=text], input[type=password] {
-    height: 30px;
-    width: 170px;
-    border-radius: 15px;
-    color: #A09D9D;
-    text-align: center;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    margin-bottom: 30px;
-    font-size: 25px;
-    background-color: white;
-  }
-  input[type=submit] {
-    height: 40px;
-    width: 100%;
-    border-radius: 25px;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    font-size: 20px;
-    background-color: #FE4824;
-    color: white;
-  }
-  input[type=submit]:hover {
-    height: 40px;
-    width: 100%;
-    border-radius: 25px;
-    border: 2px inset #A09D9D;
-    padding: 4px;
-    font-size: 20px;
-    background-color: white;
-    color: #FE4824;
-  }
+  
+
   #mainlogin {
     height: 570px;
     display: flex;
@@ -330,15 +259,17 @@
   #nav {
     border-top: 3px solid white;
     width: 100%;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #A3C6FA;
+    color: #a3c6fa;
     display: none;
   }
-  #btnHome, #btnLogin, #btnIns, #btnClas, #btnElim, #btnWin {
+  #btnHome,
+  #btnLogin,
+  #btnIns {
     margin: 10px;
     height: 30px;
     width: 30%;
@@ -348,16 +279,15 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: #A3C6FA;
-    font-size: 8px;
-    text-align: center;
-    padding: 3px;
+    color: #a3c6fa;
   }
-  #btnHome:hover, #btnLogin:hover, #btnIns:hover, #btnClas:hover, #btnElim:hover, #btnWin:hover {
+  #btnHome:hover,
+  #btnLogin:hover,
+  #btnIns:hover {
     margin: 10px;
     height: 30px;
     width: 30%;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -376,6 +306,7 @@
   #abtn:visited {
     color: grey;
   }
+
   #username {
     width: 100%;
     font-size: 18px;
@@ -395,7 +326,7 @@
     height: 50px;
     background-color: black;
     margin: 10px;
-    border: 8px outset #D3D3D3;
+    border: 8px outset #d3d3d3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,7 +336,7 @@
     height: 50px;
     background-color: black;
     margin: 10px;
-    border: 8px outset #D3D3D3;
+    border: 8px outset #d3d3d3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -423,7 +354,7 @@
     justify-content: center;
     align-items: center;
     overflow: scroll;
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
   }
   #contteams {
     width: 90%;
@@ -435,14 +366,17 @@
   }
   #filateam {
     width: 90%;
+
     height: 60px;
     margin: 10px;
   }
   #boxteam {
-    width: 95%;
-    height: 70px;
+    width: 90%;
+    height: 90px;
     margin: 10px;
-    background-color: white;
+
+    background-color: blue;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -450,26 +384,30 @@
   #flagteam {
     width: 20%;
     height: 50px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
     margin: 5px;
   }
+
   #team {
     width: 48%;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
   #editteam {
     width: 50px;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
   #suprteam {
     width: 50px;
     height: 50px;
+
     margin: 5px;
-    background-color: #A3C6FA;
+    background-color: #a3c6fa;
   }
   #contlogin {
     width: 15%;
@@ -479,5 +417,3 @@
     align-items: center;
   }
 }
-
-/*# sourceMappingURL=inscription.css.map */

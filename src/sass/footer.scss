@@ -1,0 +1,137 @@
+@media screen and (min-width: 1600px) {
+  footer {
+    height: 120px;
+    background-color: #a3c6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #contCopyright {
+    width: 70%;
+    height: 120px;
+  }
+
+  #redessociales {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #redsocial1 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+
+  #redsocial2 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+  #redsocial3 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7%;
+  }
+
+  #conttextocopy {
+    width: 15%;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #copy {
+    height: 70px;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #copyright {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #facebook,
+  #x,
+  #instagram {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+
+footer{
+  height: 90px;
+  background-color: #A3C6FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#contCopyright{
+  width: 50%;
+  height: 90px;
+  
+
+  
+}
+
+#redessociales{
+  width: 50%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+#redsocial1{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin:7%;
+  }
+  
+  #redsocial2{
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      margin:7%;
+  }
+  #redsocial3{
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      margin:7%;
+  }
+  
+#facebook,#x,#instagram{
+  width: 30px;
+  height: 30px;
+}
+#contCopyright{
+width: 50%;
+height: 90px;
+
+}
+#conttextocopy{
+width: 50%;
+height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+}
