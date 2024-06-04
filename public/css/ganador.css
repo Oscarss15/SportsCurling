@@ -322,7 +322,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 560px;
     background-image: url(/public/img/giphy.webp);
     background-size: cover;
   }
@@ -332,6 +332,9 @@ a {
   .line {
     font-size: xx-large;
     color: white;
+  }
+  * {
+    margin: 0;
   }
 }
 
