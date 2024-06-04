@@ -45,22 +45,76 @@
   #containerfirstgroup {
     width: 50%;
     height: 450px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #containersecondgroup {
     width: 50%;
     height: 450px;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #containerthirdgroup {
     width: 50%;
     height: 450px;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #containerfourthgroup {
     width: 50%;
     height: 450px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #firstgroup, #secondgroup, #thirdgroup, #fourthgroup {
+    width: 40%;
+    height: 90%;
+    background-color: #A3C6FA;
+  }
+  #teamgroup {
+    height: 60px;
+    width: 90%;
+    background-color: white;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #teamgrouptitle {
+    height: 60px;
+    width: 90%;
+    background-color: #A3C6FA;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+  }
+  #flag1group1, #flag1group2, #flag1group3, #flag1group4, #flag2group1, #flag2group2, #flag2group3, #flag2group4, #flag3group1, #flag3group2, #flag3group3, #flag3group4, #flag4group1,
+  #flag4group2, #flag4group3, #flag4group4 {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 20%;
+    margin: 3%;
+  }
+  #name1group1, #name1group2, #name1group3, #name1group4, #name2group1, #name2group2, #name2group3, #name2group4, #name3group1, #name3group2, #name3group3, #name3group4, #name4group1,
+  #name4group2, #name4group3, #name4group4 {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 50%;
+    margin: 3%;
+  }
+  #points1group1, #points1group2, #points1group3, #points1group4, #points2group1, #points2group2, #points2group3, #points2group4, #points3group1, #points3group2, #points3group3, #points3group4, #points4group1,
+  #points4group2, #points4group3, #points4group4 {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 20%;
+    margin: 3%;
   }
 }
 
