@@ -1,3 +1,7 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./nav.css");
+
 @media screen and (min-width: 1600px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,62 +12,7 @@
     margin: 0;
     box-sizing: border-box;
   }
-  header {
-    width: 100%;
-    height: 150px;
-    background-color: #a3c6fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-  #contlogo {
-    width: 30%;
-    height: 150px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #logo {
-    width: 30%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contlogin {
-    opacity: 0;
-  }
-
-  #photologo {
-    height: 120px;
-  }
-  #nombreempresa {
-    width: 70%;
-    height: 150px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #textempresa {
-    font-size: 30px;
-    color: white;
-  }
-
-  #contmenu {
-    width: 55%;
-    height: 150px;
-  }
-
-  #contlogin {
-    width: 15%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   #containerform {
     width: 25%;
@@ -94,112 +43,8 @@
     color: grey;
   }
 
-  footer {
-    height: 120px;
-    background-color: #a3c6fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contCopyright {
-    width: 70%;
-    height: 120px;
-  }
-
-  #redessociales {
-    width: 30%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #redsocial1 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-
-  #redsocial2 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial3 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-
-  #conttextocopy {
-    width: 15%;
-    height: 120px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copy {
-    height: 70px;
-    width: 90%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copyright {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-
-  #facebook,
-  #x,
-  #instagram {
-    width: 40px;
-    height: 40px;
-  }
-  #nav {
-    border-top: 3px solid white;
-    width: 100%;
-    background-color: #a3c6fa;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #a3c6fa;
-  }
-  #btnHome,
-  #btnLogin,
-  #btnIns {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-  }
-  #btnHome:hover,
-  #btnLogin:hover,
-  #btnIns:hover {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: #a3c6fa;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
-  }
+ 
+ 
 
   #c1{
     margin: 0%;
