@@ -1,0 +1,106 @@
+@media screen and (min-width: 1600px) {
+
+#nav{
+    border-top: 3px solid white;
+    width: 100%;
+    background-color: #A3C6FA;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#A3C6FA;
+    
+    
+    
+}
+#btnHome,#btnLogin,#btnIns,#btnClas,#btnElim,#btnWin{
+    margin:10px;
+    height:50px;
+    width: 10%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#btnHome:hover,#btnLogin:hover,#btnIns:hover,#btnClas:hover,#btnElim:hover,#btnWin:hover{
+    margin:10px;
+    height:50px;
+    width: 10%;
+    background-color: #A3C6FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:white;
+    border:2px solid white;
+}
+
+#abtn:visited{
+    color: grey;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+  } 
+  
+}
+
+@media screen and (max-width: 480px) {
+    #nav{
+        border-top: 3px solid white;
+        width: 100%;
+        background-color: #A3C6FA;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#A3C6FA;
+        display: none;
+        
+    }
+    #btnHome,#btnLogin,#btnIns,#btnClas,#btnElim,#btnWin{
+        margin:10px;
+        height:30px;
+        width: 30%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color:#A3C6FA;
+        font-size: 8px;
+        text-align: center;
+        padding: 3px;
+    }
+    #btnHome:hover,#btnLogin:hover,#btnIns:hover,#btnClas:hover,#btnElim:hover,#btnWin:hover{
+        margin:10px;
+        height:30px;
+        width: 30%;
+        background-color: #A3C6FA;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color:white;
+        border:2px solid white;
+        font-size: 8px;
+        text-align: center;
+        padding: 3px;
+    }
+    a{
+        text-decoration:none;
+        list-style: none;
+    }
+    a:visited{
+        color:white;
+    }
+    #abtn:visited{
+        color:grey;
+    }
+    
+}
