@@ -69,12 +69,14 @@
   }
   #conttitulotorneo {
     height: 150px;
+    background-color: #A3C6FA;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   #titulotorneo {
     font-size: 70px;
+    color: white;
   }
 }
 @media screen and (max-width: 480px) {
@@ -90,6 +92,7 @@
   }
   #conttitulotorneo {
     height: 50px;
+    background-color: #A3C6FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +100,7 @@
   #titulotorneo {
     text-align: center;
     font-weight: bold;
+    color: white;
   }
   main {
     height: 570px;

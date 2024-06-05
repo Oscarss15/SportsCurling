@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+/* document.addEventListener('DOMContentLoaded', function() {
     loadItemsFromLocalStorage();
 });
 
@@ -81,4 +81,33 @@ function deleteItem(itemId) {
     items = items.filter(item => item.id !== itemId);
     localStorage.setItem('teamItems', JSON.stringify(items));
     document.querySelector(`.team-item[data-id="${itemId}"]`).remove();
-}
+} */
+
+
+    let addteam = document.getElementById("addteam");
+    let cont = 0;
+    let mostrarContador = document.getElementById("textcontador2");
+    let botoneliminar = document.getElementById("suprteam");
+
+    addteam.addEventListener('click', () => {
+        if (cont < 16) {  // Cambio el límite a 15 para no pasar de 16
+            cont++;
+            mostrarContador.innerHTML = cont;
+        } else {
+            addteam.style.display ="none";
+        }
+
+    });
+
+    botoneliminar.addEventListener('click', () => {
+        if(cont>0){
+        cont--;
+        mostrarContador.innerHTML = cont;
+
+        }
+        if(cont<16){
+            addteam.style.display ="block";
+        }
+    });
+
+ 

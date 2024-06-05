@@ -41,7 +41,23 @@
          background-color: white;
     
     }
-    
+    input[type=file]{
+        height: 50px;
+        width: 355px;
+        border-radius: 15px;
+        color:#A09D9D;
+        text-align: center;
+        border: 2px inset #A09D9D;
+         padding: 4px;
+       margin-bottom: 30px;
+         font-size: 30px;
+         background-color: white;
+         
+         
+         
+    }
+   
+
     input[type=submit]{
         height: 50px;
         width: 95%;
@@ -164,17 +180,27 @@
                 }
                 #editteam{
                     width: 50px;
-                    height: 50px;
-                    
+                    height: 50px;                
                     margin:5px;
                     background-color: #A3C6FA;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
                 #suprteam{
                     width: 50px;
                     height: 50px;
-                   
                     margin:5px;
                     background-color: #A3C6FA;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                #suprimg{
+                    width: 80%;
+                }
+                #editimg{
+                    width: 80%;
                 }
         }
         @media screen and (max-width: 480px) {
@@ -346,7 +372,7 @@
         input[type=text],input[type=password]{
            
             height: 30px;
-           width: 170px;
+           width: 160px;
             border-radius: 15px;
             color:#A09D9D;
             text-align: center;
@@ -356,6 +382,21 @@
              font-size: 25px;
              background-color: white;
           
+        }
+        input[type=file]{
+            height: 30px;
+            width: 160px;
+             border-radius: 15px;
+             color:#A09D9D;
+             text-align: center;
+             border: 2px inset #A09D9D;
+              padding: 4px;
+            margin-bottom: 30px;
+              font-size: 25px;
+              background-color: white;
+             
+             
+             
         }
         
         input[type=submit]{
@@ -545,14 +586,18 @@
                 #editteam{
                     width: 50px;
                     height: 50px;
-                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin:5px;
                     background-color: #A3C6FA;
                 }
                 #suprteam{
                     width: 50px;
                     height: 50px;
-                   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin:5px;
                     background-color: #A3C6FA;
                 }
@@ -563,5 +608,11 @@
                     justify-content: center;
                     align-items: center;
                     
+                    }
+                    #suprimg{
+                        width: 80%;
+                    }
+                    #editimg{
+                        width: 80%;
                     }
         }

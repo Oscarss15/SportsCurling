@@ -33,6 +33,7 @@
     justify-content: center;
     
     
+    
 }
 #textowelcome{
 width: 50%;
@@ -91,15 +92,18 @@ main{
     }
 
     #conttitulotorneo{
+       
         height: 150px;
-        
+        background-color:#A3C6FA;
         display: flex;
         justify-content: center;
         align-items: center;
+       
     }
 
     #titulotorneo{
     font-size: 70px;
+    color:white;
     }
  
   
@@ -120,7 +124,7 @@ main{
    
     #conttitulotorneo{
         height: 50px;
-        
+        background-color:#A3C6FA;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -128,6 +132,7 @@ main{
     #titulotorneo{
         text-align: center;
         font-weight: bold;
+        color:white
     }
     main{
         height: 570px;
@@ -149,6 +154,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 #textowelcome{
     width: 80%;
