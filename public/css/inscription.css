@@ -1,3 +1,6 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./nav.css");
 @media screen and (min-width: 1600px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,56 +9,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  header {
-    width: 100%;
-    height: 150px;
-    background-color: #A3C6FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contlogo {
-    width: 30%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #logo {
-    width: 30%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contlogin {
-    opacity: 0;
-  }
-  #photologo {
-    height: 120px;
-  }
-  #nombreempresa {
-    width: 70%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #textempresa {
-    font-size: 30px;
-    color: white;
-  }
-  #contmenu {
-    width: 55%;
-    height: 150px;
-  }
-  #contlogin {
-    width: 15%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   #containerform {
     width: 25%;
@@ -70,6 +23,18 @@
   input[type=text], input[type=password] {
     height: 50px;
     width: 95%;
+    border-radius: 15px;
+    color: #A09D9D;
+    text-align: center;
+    border: 2px inset #A09D9D;
+    padding: 4px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    background-color: white;
+  }
+  input[type=file] {
+    height: 50px;
+    width: 355px;
     border-radius: 15px;
     color: #A09D9D;
     text-align: center;
@@ -107,106 +72,6 @@
     background-image: url("/public/img/diana2.png");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  #abtn {
-    text-decoration: none;
-    list-style: none;
-  }
-  #abtn:visited {
-    color: grey;
-  }
-  footer {
-    height: 120px;
-    background-color: #A3C6FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contCopyright {
-    width: 70%;
-    height: 120px;
-  }
-  #redessociales {
-    width: 30%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #redsocial1 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial2 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial3 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #conttextocopy {
-    width: 15%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copy {
-    height: 70px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copyright {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-  #facebook, #x, #instagram {
-    width: 40px;
-    height: 40px;
-  }
-  #nav {
-    border-top: 3px solid white;
-    width: 100%;
-    background-color: #A3C6FA;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #A3C6FA;
-  }
-  #btnHome, #btnLogin, #btnIns {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-  }
-  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: #A3C6FA;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
   }
   #contcontador {
     width: 100%;
@@ -290,12 +155,24 @@
     height: 50px;
     margin: 5px;
     background-color: #A3C6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #suprteam {
     width: 50px;
     height: 50px;
     margin: 5px;
     background-color: #A3C6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #suprimg {
+    width: 80%;
+  }
+  #editimg {
+    width: 80%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -435,7 +312,19 @@
   }
   input[type=text], input[type=password] {
     height: 30px;
-    width: 170px;
+    width: 160px;
+    border-radius: 15px;
+    color: #A09D9D;
+    text-align: center;
+    border: 2px inset #A09D9D;
+    padding: 4px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background-color: white;
+  }
+  input[type=file] {
+    height: 30px;
+    width: 160px;
     border-radius: 15px;
     color: #A09D9D;
     text-align: center;
@@ -485,7 +374,7 @@
     color: #A3C6FA;
     display: none;
   }
-  #btnHome, #btnLogin, #btnIns {
+  #btnHome, #btnLogin, #btnIns, #btnClas, #btnElim, #btnWin {
     margin: 10px;
     height: 30px;
     width: 30%;
@@ -496,8 +385,11 @@
     align-items: center;
     font-weight: bold;
     color: #A3C6FA;
+    font-size: 8px;
+    text-align: center;
+    padding: 3px;
   }
-  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
+  #btnHome:hover, #btnLogin:hover, #btnIns:hover, #btnClas:hover, #btnElim:hover, #btnWin:hover {
     margin: 10px;
     height: 30px;
     width: 30%;
@@ -583,11 +475,10 @@
     margin: 10px;
   }
   #boxteam {
-    width: 90%;
-    height: 90px;
+    width: 95%;
+    height: 70px;
     margin: 10px;
-    background-color: blue;
-    border: 2px solid black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -607,12 +498,18 @@
   #editteam {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     background-color: #A3C6FA;
   }
   #suprteam {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     background-color: #A3C6FA;
   }
@@ -622,6 +519,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #suprimg {
+    width: 80%;
+  }
+  #editimg {
+    width: 80%;
   }
 }
 

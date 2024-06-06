@@ -1,0 +1,215 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./nav.css");
+@media screen and (min-width: 1600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  main {
+    height: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #containerdraw {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #draw {
+    height: 80px;
+    width: 25%;
+    background-color: #A3C6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px outset #D3D3D3;
+    color: white;
+  }
+  #containerfirst2group {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containersecond2group {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containerfirstgroup, #containersecondgroup, #containerthirdgroup, #containerfourthgroup {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #firstgroup, #secondgroup, #thirdgroup, #fourthgroup {
+    width: 40%;
+    height: 90%;
+    background-color: #A3C6FA;
+  }
+  #teamgroup {
+    height: 60px;
+    width: 90%;
+    background-color: white;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #teamgrouptitle {
+    height: 60px;
+    width: 90%;
+    background-color: #A3C6FA;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+  }
+  #flag1group1, #flag1group2, #flag1group3, #flag1group4, #flag2group1, #flag2group2, #flag2group3, #flag2group4, #flag3group1, #flag3group2, #flag3group3, #flag3group4, #flag4group1,
+  #flag4group2, #flag4group3, #flag4group4 {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 20%;
+    margin: 3%;
+  }
+  #name1group1, #name1group2, #name1group3, #name1group4, #name2group1, #name2group2, #name2group3, #name2group4, #name3group1, #name3group2, #name3group3, #name3group4, #name4group1,
+  #name4group2, #name4group3, #name4group4 {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 50%;
+    margin: 3%;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #points1group1, #points1group2, #points1group3, #points1group4, #points2group1, #points2group2, #points2group3, #points2group4, #points3group1, #points3group2, #points3group3, #points3group4, #points4group1,
+  #points4group2, #points4group3, #points4group4 {
+    height: 50px;
+    width: 20%;
+    margin: 3%;
+  }
+  #goals {
+    background-color: #A3C6FA;
+    height: 50px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    border-style: none;
+    color: white;
+    padding-left: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+  }
+  main {
+    height: 850px;
+  }
+  #containerdraw {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #draw {
+    height: 50px;
+    width: 55%;
+    background-color: #A3C6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px outset #D3D3D3;
+    color: white;
+  }
+  #containerfirst2group {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containersecond2group {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #firstgroup, #secondgroup, #thirdgroup, #fourthgroup {
+    width: 100%;
+    height: 240px;
+    background-color: #A3C6FA;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #teamgroup {
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #teamgrouptitle {
+    height: 40px;
+    width: 90%;
+    background-color: #A3C6FA;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+  }
+  #flag1group1, #flag1group2, #flag1group3, #flag1group4, #flag2group1, #flag2group2, #flag2group3, #flag2group4, #flag3group1, #flag3group2, #flag3group3, #flag3group4, #flag4group1,
+  #flag4group2, #flag4group3, #flag4group4 {
+    background-color: #A3C6FA;
+    height: 30px;
+    width: 20%;
+    margin: 3%;
+  }
+  #name1group1, #name1group2, #name1group3, #name1group4, #name2group1, #name2group2, #name2group3, #name2group4, #name3group1, #name3group2, #name3group3, #name3group4, #name4group1,
+  #name4group2, #name4group3, #name4group4 {
+    background-color: #A3C6FA;
+    height: 30px;
+    width: 40%;
+    margin: 3%;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #points1group1, #points1group2, #points1group3, #points1group4, #points2group1, #points2group2, #points2group3, #points2group4, #points3group1, #points3group2, #points3group3, #points3group4, #points4group1,
+  #points4group2, #points4group3, #points4group4 {
+    height: 30px;
+    width: 15%;
+    margin: 3%;
+  }
+  #goals {
+    background-color: #A3C6FA;
+    height: 28px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+    color: white;
+    padding-left: 5%;
+  }
+}
+
+/*# sourceMappingURL=clasificacion.css.map */

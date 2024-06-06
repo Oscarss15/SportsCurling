@@ -1,49 +1,11 @@
-@import url("login.scss");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./nav.css");
 @media screen and (min-width: 1600px) {
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  header {
-    width: 100%;
-    height: 150px;
-    background-color: #A3C6FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #contlogo {
-    width: 30%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #logo {
-    width: 30%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contlogin {
-    opacity: 0;
-  }
-  #photologo {
-    height: 120px;
-  }
-  #nombreempresa {
-    width: 70%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #textempresa {
-    font-size: 30px;
-    color: white;
   }
   #contimagenwelcome {
     width: 100%;
@@ -95,66 +57,6 @@
     height: 1200px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  footer {
-    height: 120px;
-    background-color: #A3C6FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #contCopyright {
-    width: 70%;
-    height: 120px;
-  }
-  #redessociales {
-    width: 30%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #redsocial1 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial2 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial3 {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    margin: 7%;
-  }
-  #conttextocopy {
-    width: 15%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copy {
-    height: 70px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #copyright {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-  #facebook, #x, #instagram {
-    width: 40px;
-    height: 40px;
-  }
   #login {
     font-size: 30px;
     font-weight: bold;
@@ -167,129 +69,19 @@
   }
   #conttitulotorneo {
     height: 150px;
+    background-color: #A3C6FA;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   #titulotorneo {
     font-size: 70px;
-  }
-  #alogin {
-    text-decoration: none;
-    list-style: none;
-  }
-  #alogin:visited {
     color: white;
-  }
-  #nav {
-    border-top: 3px solid white;
-    width: 100%;
-    background-color: #A3C6FA;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #A3C6FA;
-  }
-  #btnHome, #btnLogin, #btnIns {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-  }
-  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
-    margin: 10px;
-    height: 50px;
-    width: 10%;
-    background-color: #A3C6FA;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
-  }
-  /*  #abtn{
-       text-decoration:none;
-       list-style: none;
-
-       height:50px;
-       width: 100%;
-       background-color: white;
-       border-radius: 10px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       font-weight: bold;
-
-
-   } */
-  #abtn:visited {
-    color: grey;
   }
 }
 @media screen and (max-width: 480px) {
   * {
     margin: 0;
-  }
-  header {
-    width: 100%;
-    background-color: #A3C6FA;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contlogo {
-    width: 79%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contmenu {
-    width: 1%;
-    height: 100px;
-  }
-  #contlogin {
-    width: 30%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #logo {
-    width: 30%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #nombreempresa {
-    width: 70%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #photologo {
-    height: 50px;
-  }
-  #textempresa {
-    text-align: center;
-    color: white;
-  }
-  #login {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   a {
     text-decoration: none;
@@ -300,6 +92,7 @@
   }
   #conttitulotorneo {
     height: 50px;
+    background-color: #A3C6FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,106 +100,10 @@
   #titulotorneo {
     text-align: center;
     font-weight: bold;
+    color: white;
   }
   main {
     height: 570px;
-  }
-  footer {
-    height: 90px;
-    background-color: #A3C6FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #contCopyright {
-    width: 50%;
-    height: 90px;
-  }
-  #redessociales {
-    width: 50%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #redsocial1 {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial2 {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    margin: 7%;
-  }
-  #redsocial3 {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    margin: 7%;
-  }
-  #facebook, #x, #instagram {
-    width: 30px;
-    height: 30px;
-  }
-  #contCopyright {
-    width: 50%;
-    height: 90px;
-  }
-  #conttextocopy {
-    width: 50%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #nav {
-    border-top: 3px solid white;
-    width: 100%;
-    background-color: #A3C6FA;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #A3C6FA;
-    display: none;
-  }
-  #btnHome, #btnLogin, #btnIns {
-    margin: 10px;
-    height: 30px;
-    width: 30%;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: #A3C6FA;
-  }
-  #btnHome:hover, #btnLogin:hover, #btnIns:hover {
-    margin: 10px;
-    height: 30px;
-    width: 30%;
-    background-color: #A3C6FA;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
-  }
-  a {
-    text-decoration: none;
-    list-style: none;
-  }
-  a:visited {
-    color: white;
-  }
-  #abtn:visited {
-    color: grey;
   }
   #contimagenwelcome {
     height: 150px;

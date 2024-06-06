@@ -1,0 +1,277 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./nav.css");
+
+@media screen and (min-width: 1600px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #containermain {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containerquarter {
+    height: 800px;
+    width: 25%;
+  }
+
+  #containerquarter1,
+  #containerquarter2,
+  #containerquarter3,
+  #containerquarter4 {
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #quearter1,
+  #quearter2,
+  #quearter3,
+  #quearter4,
+  #semis1,
+  #semis2,
+  #final {
+    height: 180px;
+    width: 80%;
+    background-color: #a3c6fa;
+  }
+  #titlequarter,
+  #titlesemis,
+  #titlefinal {
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #teamquarter,
+  #teamsemis,
+  #teamfinal {
+    height: 65px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contteamquarter,
+  #contteamsemis,
+  #contteamfinal {
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #flagquarter,
+  #flagsemis,
+  #flagfinal {
+    width: 60px;
+    height: 40px;
+    background-color: #a3c6fa;
+    margin: 10px;
+  }
+  #namequarter,
+  #namesemis,
+  #namefinal {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    background-color: #a3c6fa;
+  }
+  #goalsquarter,
+  #goalssemis,
+  #goalsfinal {
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    background-color: #a3c6fa;
+  }
+
+  #containersemis {
+    height: 800px;
+    width: 25%;
+  }
+
+  #containersemis1,
+  #containersemis2 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containerfinal {
+    height: 800px;
+    width: 25%;
+  }
+
+  #containerfinal1 {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #goals {
+    background-color: #a3c6fa;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    border-style: none;
+    color: white;
+    padding-left: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #containermain {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #containerquarter {
+    height: 800px;
+    width: 33%;
+  }
+
+  #containerquarter1,
+  #containerquarter2,
+  #containerquarter3,
+  #containerquarter4 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #quearter1,
+  #quearter2,
+  #quearter3,
+  #quearter4,
+  #semis1,
+  #semis2,
+  #final {
+    height: 160px;
+    width: 90%;
+    background-color: #a3c6fa;
+  }
+  #titlequarter,
+  #titlesemis,
+  #titlefinal {
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #teamquarter,
+  #teamsemis,
+  #teamfinal {
+    height: 65px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contteamquarter,
+  #contteamsemis,
+  #contteamfinal {
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #flagquarter,
+  #flagsemis,
+  #flagfinal {
+    width: 20%;
+    height: 25px;
+    background-color: #a3c6fa;
+    margin: 2px;
+  }
+  #namequarter,
+  #namesemis,
+  #namefinal {
+    width: 60%;
+    height: 25px;
+    margin: 2px;
+    background-color: #a3c6fa;
+  }
+  #goalsquarter,
+  #goalssemis,
+  #goalsfinal {
+    width: 20%;
+    height: 25px;
+    margin: 2px;
+    background-color: #a3c6fa;
+  }
+
+  #containersemis {
+    height: 800px;
+    width: 33%;
+  }
+
+  #containersemis1,
+  #containersemis2 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #containerfinal {
+    height: 800px;
+    width: 33%;
+  }
+
+  #containerfinal1 {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #goals {
+    background-color: #a3c6fa;
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+    color: white;
+    
+  }
+}
